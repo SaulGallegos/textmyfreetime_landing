@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Check, Chrome, Sparkles, Building2 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -71,6 +71,14 @@ const tiers = [
 ];
 
 export default function Pricing() {
+  return (
+    <Suspense>
+      <PricingInner />
+    </Suspense>
+  );
+}
+
+function PricingInner() {
   const [annual, setAnnual] = useState(false);
   const [loadingTier, setLoadingTier] = useState(null);
   const searchParams = useSearchParams();
