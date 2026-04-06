@@ -17,6 +17,9 @@ export default function Footer() {
             <a href="/terms" className="transition-colors hover:text-gray-900">
               Terms of Service
             </a>
+            <a href="/blog" className="transition-colors hover:text-gray-900">
+              Blog
+            </a>
             <a href="#" className="transition-colors hover:text-gray-900">
               Chrome Web Store
             </a>
