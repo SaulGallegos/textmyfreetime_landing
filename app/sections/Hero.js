@@ -49,7 +49,7 @@ export default function Hero() {
             className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center"
           >
             <a
-              href="#"
+              href="https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk"
               className="inline-flex items-center gap-2.5 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-primary/25 transition-colors hover:bg-primary-hover"
             >
               <Chrome className="h-5 w-5" />

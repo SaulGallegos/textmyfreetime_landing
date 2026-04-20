@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="/blog" className="transition-colors hover:text-gray-900">
               Blog
             </a>
-            <a href="#" className="transition-colors hover:text-gray-900">
+            <a href="https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk" className="transition-colors hover:text-gray-900">
               Chrome Web Store
             </a>
             <a

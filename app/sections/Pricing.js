@@ -15,7 +15,7 @@ const tiers = [
     yearlyNote: null,
     description: "Everything you need to get started.",
     cta: "Install Free",
-    ctaHref: "#",
+    ctaHref: "https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk",
     highlighted: false,
     features: [
       "2 reads per day",
@@ -33,7 +33,7 @@ const tiers = [
     yearlyNote: "per year — save 17%",
     description: "For power users who share availability all day.",
     cta: "Get Individual",
-    ctaHref: "#",
+    ctaHref: "https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk",
     highlighted: true,
     badge: "Most popular",
     features: [
@@ -54,7 +54,7 @@ const tiers = [
     yearlyNote: "per year — save 17%",
     description: "For teams that live in meetings. Up to 100 seats.",
     cta: "Get Company",
-    ctaHref: "#",
+    ctaHref: "https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk",
     highlighted: false,
     icon: Building2,
     features: [
