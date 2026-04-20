@@ -21,10 +21,18 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-28 sm:pt-36 lg:pt-44">
         <div className="mx-auto max-w-3xl text-center">
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
+            className="text-sm font-semibold tracking-wide text-primary uppercase mb-3"
+          >
+            Outlook Calendar Chrome Extension
+          </motion.h2>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
             className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
           >
             Your calendar, ready to{" "}
@@ -50,6 +58,7 @@ export default function Hero() {
           >
             <a
               href="https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk"
+              aria-label="Download TextMyFreeTime Outlook Calendar Chrome Extension"
               className="inline-flex items-center gap-2.5 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-primary/25 transition-colors hover:bg-primary-hover"
             >
               <Chrome className="h-5 w-5" />

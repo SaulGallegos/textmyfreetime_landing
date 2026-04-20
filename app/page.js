@@ -5,6 +5,7 @@ import FormatShowcase from "./sections/FormatShowcase";
 import UseCases from "./sections/UseCases";
 import Pricing from "./sections/Pricing";
 import FAQ from "./sections/FAQ";
+import RecentPosts from "./sections/RecentPosts";
 import Footer from "./sections/Footer";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <UseCases />
       <Pricing />
       <FAQ />
+      <RecentPosts />
       <Footer />
     </>
   );
