@@ -65,6 +65,27 @@ export default function HowItWorks() {
             </AnimateIn>
           ))}
         </div>
+
+        <AnimateIn delay={0.4}>
+          <div className="mx-auto mt-20 grid max-w-5xl gap-8 sm:grid-cols-2">
+            <div className="overflow-hidden rounded-2xl shadow-xl ring-1 ring-border group bg-white p-2">
+              <img
+                src="/1_resized.png"
+                alt="TextMyFreeTime extension in action"
+                className="h-auto w-full rounded-xl transition-transform duration-500 hover:scale-[1.02]"
+                loading="lazy"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-xl ring-1 ring-border group bg-white p-2">
+              <img
+                src="/2_resized.png"
+                alt="Scheduling with TextMyFreeTime"
+                className="h-auto w-full rounded-xl transition-transform duration-500 hover:scale-[1.02]"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </AnimateIn>
       </div>
     </section>
   );
