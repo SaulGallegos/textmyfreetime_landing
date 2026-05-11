@@ -27,7 +27,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-sm font-semibold tracking-wide text-primary uppercase mb-3"
           >
-            Outlook Calendar Chrome Extension
+            Outlook &amp; Google Calendar Chrome Extension
           </motion.h2>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -45,8 +45,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted sm:text-xl"
           >
-            TextMyFreeTime reads your live Outlook calendar and copies your
-            availability as clean plain text — paste it into emails, Slack,
+            TextMyFreeTime reads your live Outlook or Google Calendar and copies
+            your availability as clean plain text — paste it into emails, Slack,
             LinkedIn DMs, or anywhere else in under 5 seconds.
           </motion.p>
 
@@ -58,7 +58,7 @@ export default function Hero() {
           >
             <a
               href="https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk"
-              aria-label="Download TextMyFreeTime Outlook Calendar Chrome Extension"
+              aria-label="Download TextMyFreeTime Outlook and Google Calendar Chrome Extension"
               className="inline-flex items-center gap-2.5 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-primary/25 transition-colors hover:bg-primary-hover"
             >
               <Chrome className="h-5 w-5" />
@@ -88,7 +88,7 @@ export default function Hero() {
               <div className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
               <div className="h-2.5 w-2.5 rounded-full bg-green-400" />
               <span className="ml-3 font-medium text-gray-500">
-                New Message — Outlook
+                New Message
               </span>
             </div>
 

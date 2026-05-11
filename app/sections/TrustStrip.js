@@ -6,7 +6,7 @@ import AnimateIn from "../components/AnimateIn";
 const items = [
   {
     icon: Globe,
-    text: "Works with Outlook, Exchange & Microsoft 365",
+    text: "Works with Google Calendar, Outlook & Microsoft 365",
   },
   {
     icon: ShieldCheck,
@@ -24,7 +24,7 @@ export default function TrustStrip() {
       <div className="mx-auto max-w-6xl px-6 py-10">
         <AnimateIn>
           <p className="mb-6 text-center text-sm font-semibold uppercase tracking-wider text-muted">
-            Built for teams on Microsoft 365
+            Works with Google Calendar &amp; Microsoft 365
           </p>
         </AnimateIn>
 

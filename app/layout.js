@@ -9,16 +9,26 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "TextMyFreeTime — Outlook Calendar Chrome Extension",
+  title: "TextMyFreeTime — Share Calendar Availability as Plain Text (Outlook & Google Calendar)",
   description:
-    "Download the free TextMyFreeTime Chrome Extension. Instantly copy your live Outlook calendar availability as clean plain text and share your free time anywhere.",
+    "Free Chrome extension that copies your Outlook or Google Calendar availability as clean plain text in one click. No Calendly links. Paste into emails, Slack, LinkedIn DMs, or anywhere in under 5 seconds.",
   keywords: [
+    "Google Calendar availability Chrome extension",
+    "copy Google Calendar availability as text",
+    "share Google Calendar free time",
+    "Google Calendar to plain text",
     "Outlook calendar Chrome extension",
-    "Share Outlook availability",
-    "Copy Outlook schedule as text",
-    "Outlook free time text format",
-    "Outlook calendar formatter",
-    "TextMyFreeTime"
+    "copy Outlook availability as text",
+    "share Outlook free time in email",
+    "share calendar availability as plain text",
+    "copy calendar availability chrome extension",
+    "calendar availability text generator",
+    "share meeting availability without Calendly",
+    "how to share availability in email",
+    "send availability in email without Calendly link",
+    "plain text calendar availability for cold email",
+    "SDR sales email availability tool",
+    "TextMyFreeTime",
   ],
   authors: [{ name: "TextMyFreeTime" }],
   creator: "TextMyFreeTime",
@@ -29,20 +39,34 @@ export const metadata = {
     shortcut: [{ url: "/favicon.ico" }],
   },
   openGraph: {
-    title: "TextMyFreeTime — Outlook Calendar Chrome Extension",
+    title: "TextMyFreeTime — Share Your Calendar Availability as Plain Text",
     description:
-      "Chrome extension to instantly copy your live Outlook calendar availability as plain text. Under 5 seconds.",
+      "Chrome extension for Outlook & Google Calendar. Copy your live availability as clean plain text and paste it anywhere — emails, Slack, LinkedIn DMs — in under 5 seconds.",
     type: "website",
     url: "https://textmyfreetime.com",
     siteName: "TextMyFreeTime",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TextMyFreeTime — Outlook Calendar Chrome Extension",
+    title: "TextMyFreeTime — Share Your Calendar Availability as Plain Text",
     description:
-      "Chrome extension to instantly copy your live Outlook calendar availability as plain text. Under 5 seconds.",
+      "Chrome extension for Outlook & Google Calendar. Copy your live availability as clean plain text and paste it anywhere in under 5 seconds.",
   },
   metadataBase: new URL("https://textmyfreetime.com"),
+  alternates: {
+    canonical: "https://textmyfreetime.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -57,7 +81,7 @@ export default function RootLayout({ children }) {
       "price": "0",
       "priceCurrency": "USD"
     },
-    "description": "Chrome extension to read live Outlook calendar and copy availability as clean plain text.",
+    "description": "Chrome extension to read your live Outlook or Google Calendar and copy availability as clean plain text. Paste into emails, Slack, or LinkedIn DMs in under 5 seconds.",
     "url": "https://chromewebstore.google.com/detail/textmyfreetime/hfjmmppllaflpmmecendobnlipgbiggk"
   };
 

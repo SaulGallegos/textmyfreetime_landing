@@ -12,9 +12,9 @@ const steps = [
   },
   {
     icon: KeyRound,
-    title: "Connect your Outlook calendar",
+    title: "Connect your calendar",
     description:
-      "Sign in with your Microsoft account once. We request read-only calendar access — nothing more.",
+      "Sign in with your Google or Microsoft account once. We request read-only calendar access — nothing more.",
   },
   {
     icon: CalendarRange,

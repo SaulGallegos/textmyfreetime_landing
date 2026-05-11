@@ -38,7 +38,7 @@ export default function Footer() {
             reserved.
           </p>
           <p className="mt-1">
-            TextMyFreeTime is not affiliated with Microsoft.
+            TextMyFreeTime is not affiliated with Microsoft or Google.
           </p>
         </div>
       </div>

@@ -7,9 +7,14 @@ import AnimateIn from "../components/AnimateIn";
 
 const faqs = [
   {
-    question: "Can I use this with Google Calendar?",
+    question: "Does this work with Google Calendar?",
     answer:
-      "Not yet — TextMyFreeTime is Outlook / Microsoft 365 only for now. Google Calendar support is on the roadmap.",
+      "Yes! TextMyFreeTime supports both Google Calendar and Outlook / Microsoft 365. Sign in with your Google account to connect Google Calendar, or your Microsoft account for Outlook.",
+  },
+  {
+    question: "Does this work with Outlook and Microsoft 365?",
+    answer:
+      "Yes. TextMyFreeTime works with Outlook, Exchange, and Microsoft 365. Sign in with your Microsoft account once to connect.",
   },
   {
     question: "Is my calendar data stored anywhere?",
@@ -29,7 +34,7 @@ const faqs = [
   {
     question: "Do I need to create an account?",
     answer:
-      "No separate account needed. You sign in with your existing Microsoft account.",
+      "No separate account needed. You sign in with your existing Google or Microsoft account.",
   },
 ];
 

@@ -26,7 +26,7 @@ const cases = [
     icon: Send,
     title: "Founders & Execs",
     description:
-      "Copy your free time into any channel — email, Teams, WhatsApp, anything. No link, no friction for recipients.",
+      "Works with Google Calendar or Outlook. Copy your free time into any channel — email, Teams, WhatsApp, anything. No link, no friction.",
   },
 ];
 
